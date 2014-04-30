@@ -1,0 +1,994 @@
+# depslib dependency file v1.0
+1395769403 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\main.cpp
+	<flakysnakey.hpp>
+
+1395030153 esting.hpp>
+
+1381240072 d:\university\programming\cpp\git\ica2\api\prg_interactive.hpp
+	<prg_core.hpp>
+	<prg/interactive/app.hpp>
+	<prg/interactive/app_state.hpp>
+	<prg/interactive/timer.hpp>
+
+1381240072 active/timer.hpp>
+
+1381240072 d:\university\programming\cpp\git\ica2\api\prg_core.hpp
+	<prg/core/image.hpp>
+	<prg/core/image_file.hpp>
+	<prg/core/font.hpp>
+	<prg/core/log.hpp>
+	<prg/core/font.hpp>
+	<prg/core/math.hpp>
+
+1381240072 math.hpp>
+
+1389564217 d:\university\programming\cpp\git\ica2\api\prg\core\image.hpp
+	<prg/core/types.hpp>
+	<prg/core/colour.hpp>
+	<string>
+	<stdexcept>
+
+1381240484 >
+
+1381240072 d:\university\programming\cpp\git\ica2\api\prg\core\types.hpp
+	<bits/c++0x_warning.h>
+
+1381240072 x_warning.h>
+
+1381240072 d:\university\programming\cpp\git\ica2\api\prg\core\colour.hpp
+	<prg/core/types.hpp>
+
+1381240072 types.hpp>
+
+1381240484 d:\university\programming\cpp\git\ica2\api\prg\core\image_file.hpp
+	<string>
+	<stdexcept>
+
+1389564217 d:\university\programming\cpp\git\ica2\api\prg\core\font.hpp
+	<string>
+	<prg/core/types.hpp>
+
+1389564217 d:\university\programming\cpp\git\ica2\api\prg\core\log.hpp
+	<prg/core/types.hpp>
+	<fstream>
+	<string>
+	<sstream>
+
+1394916643 
+
+1381240072 d:\university\programming\cpp\git\ica2\api\prg\core\math.hpp
+	<prg/core/types.hpp>
+	<cmath>
+
+1389564217 d:\university\programming\cpp\git\ica2\api\prg\interactive\app.hpp
+	<stdexcept>
+	<prg/core/types.hpp>
+	<prg/interactive/app_state.hpp>
+
+1389564217 active/app_state.hpp>
+
+1381240072 d:\university\programming\cpp\git\ica2\api\prg\interactive\app_state.hpp
+	<prg/core/types.hpp>
+	<prg/core/image.hpp>
+	<climits>
+
+1381240072 d:\university\programming\cpp\git\ica2\api\prg\interactive\timer.hpp
+	<prg/core/types.hpp>
+	<string>
+
+1394917156 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\rectangle.cpp
+	"rectangle.h"
+
+1394906232 .h"
+
+1394646738 d:\university\programming\cpp\git\ica2\flaky_snakey\inc\rectangle.h
+	<limits>
+
+1394647036 d:\university\programming\cpp\git\ica2\flaky_snakey\inc\fwd\rectangle.h
+
+1394910107 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\obstacle.cpp
+	"obstacle.h"
+
+1394914857 h"
+
+1394906232 d:\university\programming\cpp\git\ica2\flaky_snakey\include\obstacle.h
+	<prg/core/colour.hpp>
+	"idrawable.h"
+	"rectangle.h"
+
+1394861452 d:\university\programming\cpp\git\ica2\flaky_snakey\include\idrawable.h
+	<prg/core/image.hpp>
+
+1395002044 image.hpp>
+
+1394906232 d:\university\programming\cpp\git\ica2\flaky_snakey\include\rectangle.h
+	<limits>
+
+1394847110 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\fatfood.cpp
+	"fatfood.h"
+	<iostream>
+
+1394906232 d:\university\programming\cpp\git\ica2\flaky_snakey\include\fatfood.h
+	<limits>
+	<stdlib.h>
+	"food.h"
+
+1394748124 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\food.cpp
+	"food.h"
+
+1394906232 d:\university\programming\cpp\git\ica2\flaky_snakey\include\food.h
+	"obstacle.h"
+
+1394847110 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\thinfood.cpp
+	"thinfood.h"
+
+1394906232 d:\university\programming\cpp\git\ica2\flaky_snakey\include\thinfood.h
+	<limits>
+	<stdlib.h>
+	"food.h"
+
+1394817319 d:\university\programming\cpp\git\ica2\flaky_snakey\include\snakeutilites.h
+	<iostream>
+	<limits>
+	<prg/core/log.hpp>
+
+1394817319 log.hpp>
+
+1394745495 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\snakeutilites.cpp
+	"snakeutilites.h"
+
+1394859930 ites.h"
+
+1394915357 d:\university\programming\cpp\git\ica2\flaky_snakey\include\testing.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<prg_interactive.hpp>
+	"fatfood.h"
+	"thinfood.h"
+	"snakestatesetup.h"
+	"obstaclemanager.h"
+
+1394918164 anager.h"
+
+1394917666 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\testing.cpp
+	"testing.h"
+
+1394917666 "
+
+1394918164 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\ingamesetup.cpp
+	"ingamesetup.h"
+
+1394918164 up.h"
+
+1394859930 d:\university\programming\cpp\git\ica2\flaky_snakey\include\ingamesetup.h
+	"snakeutilites.h"
+
+1394918164 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\obstaclemanager.cpp
+	"obstaclemanager.h"
+
+1394914857 d:\university\programming\cpp\git\ica2\flaky_snakey\include\obstaclemanager.h
+	<stdexcept>
+	<vector>
+	"ingamesetup.h"
+	"obstacle.h"
+
+1394766818 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\maingamestatesetup.cpp
+	"maingamestatesetup.h"
+
+1394766818 tatesetup.h"
+
+1394766880 d:\university\programming\cpp\git\ica2\flaky_snakey\include\maingamestatesetup.h
+	<memory>
+	<vector>
+	"ingamesetup.h"
+	"keymap.h"
+
+1394856775 d:\university\programming\cpp\git\ica2\flaky_snakey\include\keymap.h
+
+1394818529 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\gamestatesetup.cpp
+	"gamestatesetup.h"
+
+1394818529 setup.h"
+
+1394819634 d:\university\programming\cpp\git\ica2\flaky_snakey\include\gamestatesetup.h
+	<vector>
+	"ingamesetup.h"
+	"keymap.h"
+
+1394916643 d:\university\programming\cpp\git\ica2\flaky_snakey\include\snakestatesetup.h
+	<vector>
+	"ingamesetup.h"
+	"keymap.h"
+
+1394860604 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\snakestatesetup.cpp
+	"snakestatesetup.h"
+
+1394860604 esetup.h"
+
+1395083942 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\food\fatfood.cpp
+	<food/fatfood.hpp>
+
+1394948210 ood.hpp>
+
+1394922420 d:\university\programming\cpp\git\ica2\flaky_snakey\include\food\fatfood.h
+	<limits>
+	<stdlib.h>
+	<food/food.h>
+
+1394922420 .h>
+
+1394922420 d:\university\programming\cpp\git\ica2\flaky_snakey\include\food\food.h
+	<obstacles/obstacle.h>
+
+1394922420 /obstacle.h>
+
+1394922420 d:\university\programming\cpp\git\ica2\flaky_snakey\include\obstacles\obstacle.h
+	<prg/core/colour.hpp>
+	<interfaces/idrawable.h>
+	<misc/rectangle.h>
+
+1394922420 angle.h>
+
+1394861452 d:\university\programming\cpp\git\ica2\flaky_snakey\include\interfaces\idrawable.h
+	<prg/core/image.hpp>
+
+1394922297 d:\university\programming\cpp\git\ica2\flaky_snakey\include\misc\rectangle.h
+	<limits>
+
+1395381543 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\food\food.cpp
+	<food/food.hpp>
+
+1394946450 .hpp>
+
+1395505187 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\food\foodmanager.cpp
+	<food/foodmanager.hpp>
+
+1395029874 manager.hpp>
+
+1394923097 d:\university\programming\cpp\git\ica2\flaky_snakey\include\food\foodmanager.h
+	<memory>
+	<vector>
+	<prg/interactive/app_state.hpp>
+	<prg/interactive/timer.hpp>
+	<setup/ingamesetup.h>
+	<food/food.h>
+
+1394922420 d:\university\programming\cpp\git\ica2\flaky_snakey\include\setup\ingamesetup.h
+	<misc/snakeutilites.h>
+
+1394922420 eutilites.h>
+
+1394817319 d:\university\programming\cpp\git\ica2\flaky_snakey\include\misc\snakeutilites.h
+	<iostream>
+	<limits>
+	<prg/core/log.hpp>
+
+1394946450 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\food\thinfood.cpp
+	<food/thinfood.hpp>
+
+1394949059 food.hpp>
+
+1394922420 d:\university\programming\cpp\git\ica2\flaky_snakey\include\food\thinfood.h
+	<limits>
+	<stdlib.h>
+	<food/food.h>
+
+1394922420 d:\university\programming\cpp\git\ica2\flaky_snakey\include\testing\testing.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<prg_interactive.hpp>
+	<food/fatfood.h>
+	<food/thinfood.h>
+	<setup/snakestatesetup.h>
+	<obstacles/obstaclemanager.h>
+
+1394922420 /obstaclemanager.h>
+
+1394922420 d:\university\programming\cpp\git\ica2\flaky_snakey\include\setup\snakestatesetup.h
+	<vector>
+	<setup/ingamesetup.h>
+	<misc/keymap.h>
+
+1394922420 ap.h>
+
+1394856775 d:\university\programming\cpp\git\ica2\flaky_snakey\include\misc\keymap.h
+
+1394922420 d:\university\programming\cpp\git\ica2\flaky_snakey\include\obstacles\obstaclemanager.h
+	<stdexcept>
+	<vector>
+	<setup/ingamesetup.h>
+	<obstacles/obstacle.h>
+
+1395623070 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\misc\rectangle.cpp
+	<misc/rectangle.hpp>
+
+1394938653 angle.hpp>
+
+1395362133 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\misc\snakeutilites.cpp
+	<misc/snakeutilites.hpp>
+
+1394923725 eutilites.hpp>
+
+1395008635 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\obstacles\obstacle.cpp
+	<obstacles/obstacle.hpp>
+
+1395011124 /obstacle.hpp>
+
+1395356747 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\obstacles\obstaclemanager.cpp
+	<obstacles/obstaclemanager.hpp>
+
+1394998804 /obstaclemanager.hpp>
+
+1395378729 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\setup\ingamesetup.cpp
+	<setup/ingamesetup.hpp>
+
+1395030072 amesetup.hpp>
+
+1395767880 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\setup\snakestatesetup.cpp
+	<setup/snakestatesetup.hpp>
+
+1394923726 kestatesetup.hpp>
+
+1395188885 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\testing\testing.cpp
+	<testing/testing.hpp>
+
+1395084959 d:\university\programming\cpp\git\ica2\flaky_snakey\include\food\fatfood.hpp
+	<cstdlib>
+	<food/food.hpp>
+
+1395464503 d:\university\programming\cpp\git\ica2\flaky_snakey\include\food\food.hpp
+	<prg/interactive/app_state.hpp>
+	<prg/interactive/timer.hpp>
+	<obstacles/obstacle.hpp>
+
+1395084987 d:\university\programming\cpp\git\ica2\flaky_snakey\include\obstacles\obstacle.hpp
+	<prg/core/image.hpp>
+	<interfaces/idrawable.hpp>
+	<misc/rectangle.hpp>
+
+1395091997 d:\university\programming\cpp\git\ica2\flaky_snakey\include\interfaces\idrawable.hpp
+
+1395440948 d:\university\programming\cpp\git\ica2\flaky_snakey\include\misc\rectangle.hpp
+	<limits>
+
+1395504024 d:\university\programming\cpp\git\ica2\flaky_snakey\include\food\foodmanager.hpp
+	<memory>
+	<vector>
+	<setup/ingamesetup.hpp>
+	<food/fatfood.hpp>
+	<food/thinfood.hpp>
+
+1395347490 d:\university\programming\cpp\git\ica2\flaky_snakey\include\setup\ingamesetup.hpp
+
+1395617768 d:\university\programming\cpp\git\ica2\flaky_snakey\include\misc\snakeutilites.hpp
+	<iostream>
+	<limits>
+	<sstream>
+	<misc/rectangle.hpp>
+	<setup/ingamesetup.hpp>
+
+1395084944 d:\university\programming\cpp\git\ica2\flaky_snakey\include\food\thinfood.hpp
+	<cstdlib>
+	<food/food.hpp>
+
+1395185790 d:\university\programming\cpp\git\ica2\flaky_snakey\include\testing\testing.hpp
+	<ctime>
+	<prg/interactive/app.hpp>
+	<setup/snakestatesetup.hpp>
+	<food/foodmanager.hpp>
+	<obstacles/obstaclemanager.hpp>
+	<snakes/snake.hpp>
+
+1395031716 ake.hpp>
+
+1395607766 d:\university\programming\cpp\git\ica2\flaky_snakey\include\setup\snakestatesetup.hpp
+	<string>
+	<vector>
+	<prg/interactive/app_state.hpp>
+	<setup/ingamesetup.hpp>
+	<misc/keymap.hpp>
+
+1394923726 ap.hpp>
+
+1395617579 d:\university\programming\cpp\git\ica2\flaky_snakey\include\misc\keymap.hpp
+
+1395608428 d:\university\programming\cpp\git\ica2\flaky_snakey\include\obstacles\obstaclemanager.hpp
+	<vector>
+	<setup/ingamesetup.hpp>
+	<obstacles/obstacle.hpp>
+
+1395618081 d:\university\programming\cpp\git\ica2\flaky_snakey\include\snakes\snake.hpp
+	<list>
+	<memory>
+	<vector>
+	<prg/core/image.hpp>
+	<interfaces/idrawable.hpp>
+	<misc/movement.hpp>
+	<misc/rectangle.hpp>
+	<misc/snakeutilities.hpp>
+	<setup/ingamesetup.hpp>
+
+1395025096 ment.hpp>
+
+1395085803 d:\university\programming\cpp\git\ica2\flaky_snakey\include\misc\movement.hpp
+
+1395381496 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\snakes\snake.cpp
+	<snakes/snake.hpp>
+	<controllers/controller.hpp>
+
+1394948210 source:/home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/src/food/fatfood.cpp
+	<food/fatfood.hpp>
+
+1394948210 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/include/food/fatfood.hpp
+	<limits>
+	<cstdlib>
+	<food/food.hpp>
+
+1395001988 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/include/food/food.hpp
+	<prg/interactive/app_state.hpp>
+	<prg/interactive/timer.hpp>
+	<obstacles/obstacle.hpp>
+
+1381240072 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/api/prg/interactive/app_state.hpp
+	<prg/core/types.hpp>
+	<prg/core/image.hpp>
+	<climits>
+
+1381240072 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/api/prg/core/types.hpp
+	<bits/c++0x_warning.h>
+
+1389564217 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/api/prg/core/image.hpp
+	<prg/core/types.hpp>
+	<prg/core/colour.hpp>
+	<string>
+	<stdexcept>
+
+1381240072 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/api/prg/core/colour.hpp
+	<prg/core/types.hpp>
+
+1381240072 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/api/prg/interactive/timer.hpp
+	<prg/core/types.hpp>
+	<string>
+
+1394938653 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/include/obstacles/obstacle.hpp
+	<prg/core/colour.hpp>
+	<interfaces/idrawable.hpp>
+	<misc/rectangle.hpp>
+
+1395002044 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/include/interfaces/idrawable.hpp
+	<prg/core/image.hpp>
+
+1395011348 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/include/misc/rectangle.hpp
+	<limits>
+
+1395008756 source:/home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/src/food/food.cpp
+	<food/food.hpp>
+
+1395029874 source:/home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/src/food/foodmanager.cpp
+	<food/foodmanager.hpp>
+
+1394949059 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/include/food/foodmanager.hpp
+	<cstdlib>
+	<memory>
+	<stdexcept>
+	<vector>
+	<setup/ingamesetup.hpp>
+	<food/fatfood.hpp>
+	<food/thinfood.hpp>
+
+1394923725 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/include/setup/ingamesetup.hpp
+	<misc/snakeutilites.hpp>
+
+1394817319 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/include/misc/snakeutilites.hpp
+	<iostream>
+	<limits>
+	<prg/core/log.hpp>
+
+1389564217 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/api/prg/core/log.hpp
+	<prg/core/types.hpp>
+	<fstream>
+	<string>
+	<sstream>
+
+1394946450 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/include/food/thinfood.hpp
+	<limits>
+	<cstdlib>
+	<food/food.hpp>
+
+1394946450 source:/home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/src/food/thinfood.cpp
+	<food/thinfood.hpp>
+
+1395055911 source:/home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/src/main.cpp
+	<stdexcept>
+	<cstdlib>
+	<ctime>
+	<prg_interactive.hpp>
+	<misc/snakeutilites.hpp>
+	<testing/testing.hpp>
+
+1381240072 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/api/prg_interactive.hpp
+	<prg_core.hpp>
+	<prg/interactive/app.hpp>
+	<prg/interactive/app_state.hpp>
+	<prg/interactive/timer.hpp>
+
+1381240072 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/api/prg_core.hpp
+	<prg/core/image.hpp>
+	<prg/core/image_file.hpp>
+	<prg/core/font.hpp>
+	<prg/core/log.hpp>
+	<prg/core/font.hpp>
+	<prg/core/math.hpp>
+
+1381240484 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/api/prg/core/image_file.hpp
+	<string>
+	<stdexcept>
+
+1389564217 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/api/prg/core/font.hpp
+	<string>
+	<prg/core/types.hpp>
+
+1381240072 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/api/prg/core/math.hpp
+	<prg/core/types.hpp>
+	<cmath>
+
+1389564217 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/api/prg/interactive/app.hpp
+	<stdexcept>
+	<prg/core/types.hpp>
+	<prg/interactive/app_state.hpp>
+
+1395030109 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/include/testing/testing.hpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<memory>
+	<prg_interactive.hpp>
+	<setup/snakestatesetup.hpp>
+	<food/foodmanager.hpp>
+	<obstacles/obstaclemanager.hpp>
+	<snakes/snake.hpp>
+
+1394923726 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/include/setup/snakestatesetup.hpp
+	<vector>
+	<setup/ingamesetup.hpp>
+	<misc/keymap.hpp>
+
+1394856775 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/include/misc/keymap.hpp
+
+1395011124 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/include/obstacles/obstaclemanager.hpp
+	<stdexcept>
+	<vector>
+	<setup/ingamesetup.hpp>
+	<obstacles/obstacle.hpp>
+
+1395060060 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/include/snakes/snake.hpp
+	<limits>
+	<list>
+	<memory>
+	<stdexcept>
+	<vector>
+	<prg/core/image.hpp>
+	<interfaces/idrawable.hpp>
+	<setup/ingamesetup.hpp>
+	<misc/rectangle.hpp>
+	<misc/movement.hpp>
+
+1395005111 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/include/misc/movement.hpp
+
+1394923725 source:/home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/src/misc/rectangle.cpp
+	<misc/rectangle.hpp>
+
+1394923725 source:/home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/src/misc/snakeutilites.cpp
+	<misc/snakeutilites.hpp>
+
+1395008635 source:/home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/src/obstacles/obstacle.cpp
+	<obstacles/obstacle.hpp>
+
+1394998804 source:/home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/src/obstacles/obstaclemanager.cpp
+	<obstacles/obstaclemanager.hpp>
+
+1395056951 source:/home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/src/setup/ingamesetup.cpp
+	<setup/ingamesetup.hpp>
+
+1394923726 source:/home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/src/setup/snakestatesetup.cpp
+	<setup/snakestatesetup.hpp>
+
+1395059795 source:/home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/src/snakes/snake.cpp
+	<snakes/snake.hpp>
+
+1395060349 source:/home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/src/testing/testing.cpp
+	<testing/testing.hpp>
+
+1395059651 source:/home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/src/controllers/controller.cpp
+	<controllers/controller.hpp>
+
+1395059746 /home/scm-studs/n3053620/work/programming/cpp/git/ica2/flaky_snakey/include/controllers/controller.hpp
+	<memory>
+	<misc/movement.hpp>
+	<snakes/snake.hpp>
+
+1395448294 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\controllers\controller.cpp
+	<controllers/controller.hpp>
+
+1395448218 d:\university\programming\cpp\git\ica2\flaky_snakey\include\controllers\controller.hpp
+	<memory>
+	<misc/movement.hpp>
+
+1395630517 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\controllers\playercontroller.cpp
+	<controllers/playercontroller.hpp>
+
+1395630517 d:\university\programming\cpp\git\ica2\flaky_snakey\include\controllers\playercontroller.hpp
+	<prg/interactive/app.hpp>
+	<controllers/controller.hpp>
+	<misc/keymap.hpp>
+
+1395453087 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\controllers\aicontroller.cpp
+	<controllers/aicontroller.hpp>
+	<obstacles/obstaclemanager.hpp>
+	<snakes/snakemanager.hpp>
+
+1395618048 d:\university\programming\cpp\git\ica2\flaky_snakey\include\controllers\aicontroller.hpp
+	<cstdlib>
+	<vector>
+	<controllers/controller.hpp>
+	<misc/snakeutilities.hpp>
+
+1395629284 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\snakes\snakemanager.cpp
+	<snakes/snakemanager.hpp>
+
+1395624530 d:\university\programming\cpp\git\ica2\flaky_snakey\include\snakes\snakemanager.hpp
+	<prg/interactive/app_state.hpp>
+	<prg/interactive/timer.hpp>
+	<controllers/dumbaicontroller.hpp>
+	<controllers/playercontroller.hpp>
+	<controllers/smartaicontroller.hpp>
+	<snakes/snake.hpp>
+	<ui/snakeinterface.hpp>
+
+1395456605 d:\university\programming\cpp\git\ica2\flaky_snakey\include\controllers\dumbaicontroller.hpp
+	<controllers/aicontroller.hpp>
+	<snakes/snake.hpp>
+
+1395505804 d:\university\programming\cpp\git\ica2\flaky_snakey\include\controllers\smartaicontroller.hpp
+	<controllers/aicontroller.hpp>
+	<snakes/snake.hpp>
+
+1395504168 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\controllers\dumbaicontroller.cpp
+	<controllers/dumbaicontroller.hpp>
+	<food/foodmanager.hpp>
+
+1395768448 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\controllers\smartaicontroller.cpp
+	<controllers/smartaicontroller.hpp>
+	<food/foodmanager.hpp>
+	<iostream>
+
+1395626788 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\states\snakestate.cpp
+	<states/snakestate.hpp>
+
+1395630136 d:\university\programming\cpp\git\ica2\flaky_snakey\include\states\snakestate.hpp
+	<ctime>
+	<prg/interactive/app_state.hpp>
+	<food/foodmanager.hpp>
+	<obstacles/obstaclemanager.hpp>
+	<setup/snakestatesetup.hpp>
+	<snakes/snakemanager.hpp>
+	<ui/button.hpp>
+
+1395765785 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\flakysnakey.cpp
+	<flakysnakey.hpp>
+
+1395765745 d:\university\programming\cpp\git\ica2\flaky_snakey\include\flakysnakey.hpp
+	<stdexcept>
+	<prg/core/log.hpp>
+	<states/mainmenustate.hpp>
+	<states/configurationstate.hpp>
+	<states/mainsnakestate.hpp>
+	<states/demosnakestate.hpp>
+
+1395628445 d:\university\programming\cpp\git\ica2\flaky_snakey\include\states\mainsnakestate.hpp
+	<states/snakestate.hpp>
+
+1395626732 d:\university\programming\cpp\git\ica2\flaky_snakey\include\states\demosnakestate.hpp
+	<states/snakestate.hpp>
+
+1395774417 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\states\demosnakestate.cpp
+	<states/demosnakestate.hpp>
+
+1395774417 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\states\mainsnakestate.cpp
+	<states\mainsnakestate.hpp>
+
+1395371095 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\misc\snakescore.cpp
+	<misc/snakescore.hpp>
+
+1395371141 d:\university\programming\cpp\git\ica2\flaky_snakey\include\misc\snakescore.hpp
+	<string>
+
+1395618140 d:\university\programming\cpp\git\ica2\flaky_snakey\include\ui\snakeinterface.hpp
+	<stdexcept>
+	<vector>
+	<prg/core/font.hpp>
+	<prg/core/image.hpp>
+	<interfaces/idrawable.hpp>
+	<misc/snakescore.hpp>
+	<misc/snakeutilities.hpp>
+	<setup/ingamesetup.hpp>
+
+1395618106 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\ui\snakeinterface.cpp
+	<ui/snakeinterface.hpp>
+
+1395434642 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\controllers\aicontroller.cpp
+	<controllers/aicontroller.hpp>
+	<snakes/snakemanager.hpp>
+
+1395431191 u:\work\programming\cpp\git\ica2\flaky_snakey\include\controllers\aicontroller.hpp
+	<cstdlib>
+	<controllers/controller.hpp>
+	<misc/snakeutilites.hpp>
+	<obstacles/obstaclemanager.hpp>
+
+1395202574 u:\work\programming\cpp\git\ica2\flaky_snakey\include\controllers\controller.hpp
+	<memory>
+	<misc/movement.hpp>
+
+1395085803 u:\work\programming\cpp\git\ica2\flaky_snakey\include\misc\movement.hpp
+
+1395361868 u:\work\programming\cpp\git\ica2\flaky_snakey\include\misc\snakeutilites.hpp
+	<iostream>
+	<limits>
+	<misc/rectangle.hpp>
+	<setup/ingamesetup.hpp>
+
+1395084978 u:\work\programming\cpp\git\ica2\flaky_snakey\include\misc\rectangle.hpp
+	<limits>
+
+1395347490 u:\work\programming\cpp\git\ica2\flaky_snakey\include\setup\ingamesetup.hpp
+
+1395189975 u:\work\programming\cpp\git\ica2\flaky_snakey\include\obstacles\obstaclemanager.hpp
+	<vector>
+	<setup/ingamesetup.hpp>
+	<obstacles/obstacle.hpp>
+
+1395084987 u:\work\programming\cpp\git\ica2\flaky_snakey\include\obstacles\obstacle.hpp
+	<prg/core/image.hpp>
+	<interfaces/idrawable.hpp>
+	<misc/rectangle.hpp>
+
+1389564217 u:\work\programming\cpp\git\ica2\api\prg\core\image.hpp
+	<prg/core/types.hpp>
+	<prg/core/colour.hpp>
+	<string>
+	<stdexcept>
+
+1381236472 u:\work\programming\cpp\git\ica2\api\prg\core\types.hpp
+	<bits/c++0x_warning.h>
+
+1381236472 u:\work\programming\cpp\git\ica2\api\prg\core\colour.hpp
+	<prg/core/types.hpp>
+
+1395091997 u:\work\programming\cpp\git\ica2\flaky_snakey\include\interfaces\idrawable.hpp
+
+1395377544 u:\work\programming\cpp\git\ica2\flaky_snakey\include\snakes\snakemanager.hpp
+	<prg/interactive/app_state.hpp>
+	<prg/interactive/timer.hpp>
+	<controllers/dumbaicontroller.hpp>
+	<controllers/playercontroller.hpp>
+	<controllers/smartaicontroller.hpp>
+	<snakes/snake.hpp>
+	<ui/snakeinterface.hpp>
+
+1381236472 u:\work\programming\cpp\git\ica2\api\prg\interactive\app_state.hpp
+	<prg/core/types.hpp>
+	<prg/core/image.hpp>
+	<climits>
+
+1381236472 u:\work\programming\cpp\git\ica2\api\prg\interactive\timer.hpp
+	<prg/core/types.hpp>
+	<string>
+
+1395197859 u:\work\programming\cpp\git\ica2\flaky_snakey\include\controllers\dumbaicontroller.hpp
+	<controllers/aicontroller.hpp>
+
+1395264565 u:\work\programming\cpp\git\ica2\flaky_snakey\include\controllers\playercontroller.hpp
+	<prg/interactive/app.hpp>
+	<controllers/controller.hpp>
+	<misc/keymap.hpp>
+
+1389564217 u:\work\programming\cpp\git\ica2\api\prg\interactive\app.hpp
+	<stdexcept>
+	<prg/core/types.hpp>
+	<prg/interactive/app_state.hpp>
+
+1395085803 u:\work\programming\cpp\git\ica2\flaky_snakey\include\misc\keymap.hpp
+
+1395377677 u:\work\programming\cpp\git\ica2\flaky_snakey\include\controllers\smartaicontroller.hpp
+	<controllers/aicontroller.hpp>
+	<food/foodmanager.hpp>
+
+1395356175 u:\work\programming\cpp\git\ica2\flaky_snakey\include\food\foodmanager.hpp
+	<memory>
+	<vector>
+	<setup/ingamesetup.hpp>
+	<food/fatfood.hpp>
+	<food/thinfood.hpp>
+
+1395084959 u:\work\programming\cpp\git\ica2\flaky_snakey\include\food\fatfood.hpp
+	<cstdlib>
+	<food/food.hpp>
+
+1395345429 u:\work\programming\cpp\git\ica2\flaky_snakey\include\food\food.hpp
+	<prg/interactive/app_state.hpp>
+	<prg/interactive/timer.hpp>
+	<obstacles/obstacle.hpp>
+
+1395084944 u:\work\programming\cpp\git\ica2\flaky_snakey\include\food\thinfood.hpp
+	<cstdlib>
+	<food/food.hpp>
+
+1395361824 u:\work\programming\cpp\git\ica2\flaky_snakey\include\snakes\snake.hpp
+	<list>
+	<memory>
+	<vector>
+	<prg/core/image.hpp>
+	<interfaces/idrawable.hpp>
+	<misc/movement.hpp>
+	<misc/rectangle.hpp>
+	<misc/snakeutilites.hpp>
+	<setup/ingamesetup.hpp>
+
+1395376547 u:\work\programming\cpp\git\ica2\flaky_snakey\include\ui\snakeinterface.hpp
+	<stdexcept>
+	<sstream>
+	<vector>
+	<prg/core/font.hpp>
+	<prg/core/image.hpp>
+	<interfaces/idrawable.hpp>
+	<misc/snakescore.hpp>
+	<setup/ingamesetup.hpp>
+
+1389564217 u:\work\programming\cpp\git\ica2\api\prg\core\font.hpp
+	<string>
+	<prg/core/types.hpp>
+
+1395371141 u:\work\programming\cpp\git\ica2\flaky_snakey\include\misc\snakescore.hpp
+	<string>
+
+1395090992 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\controllers\controller.cpp
+	<controllers/controller.hpp>
+
+1395203414 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\controllers\dumbaicontroller.cpp
+	<controllers/dumbaicontroller.hpp>
+
+1395279657 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\controllers\playercontroller.cpp
+	<controllers/playercontroller.hpp>
+
+1395201211 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\controllers\smartaicontroller.cpp
+	<controllers/smartaicontroller.hpp>
+
+1395434811 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\flakysnakey.cpp
+	<flakysnakey.hpp>
+
+1395263752 u:\work\programming\cpp\git\ica2\flaky_snakey\include\flakysnakey.hpp
+	<stdexcept>
+	<prg/core/log.hpp>
+	<states/mainsnakestate.hpp>
+	<states/demosnakestate.hpp>
+
+1389564217 u:\work\programming\cpp\git\ica2\api\prg\core\log.hpp
+	<prg/core/types.hpp>
+	<fstream>
+	<string>
+	<sstream>
+
+1395357947 u:\work\programming\cpp\git\ica2\flaky_snakey\include\states\mainsnakestate.hpp
+	<states/snakestate.hpp>
+
+1395377534 u:\work\programming\cpp\git\ica2\flaky_snakey\include\states\snakestate.hpp
+	<ctime>
+	<setup/snakestatesetup.hpp>
+	<snakes/snakemanager.hpp>
+
+1395367128 u:\work\programming\cpp\git\ica2\flaky_snakey\include\setup\snakestatesetup.hpp
+	<string>
+	<vector>
+	<setup/ingamesetup.hpp>
+	<misc/keymap.hpp>
+
+1395264515 u:\work\programming\cpp\git\ica2\flaky_snakey\include\states\demosnakestate.hpp
+	<states/snakestate.hpp>
+
+1395083942 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\food\fatfood.cpp
+	<food/fatfood.hpp>
+
+1395381543 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\food\food.cpp
+	<food/food.hpp>
+
+1395351269 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\food\foodmanager.cpp
+	<food/foodmanager.hpp>
+
+1394946450 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\food\thinfood.cpp
+	<food/thinfood.hpp>
+
+1395256260 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\main.cpp
+	<flakysnakey.hpp>
+
+1395083942 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\misc\rectangle.cpp
+	<misc/rectangle.hpp>
+
+1395371095 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\misc\snakescore.cpp
+	<misc/snakescore.hpp>
+
+1395362133 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\misc\snakeutilites.cpp
+	<misc/snakeutilites.hpp>
+
+1395008635 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\obstacles\obstacle.cpp
+	<obstacles/obstacle.hpp>
+
+1395356747 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\obstacles\obstaclemanager.cpp
+	<obstacles/obstaclemanager.hpp>
+
+1395378729 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\setup\ingamesetup.cpp
+	<setup/ingamesetup.hpp>
+
+1395381434 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\setup\snakestatesetup.cpp
+	<setup/snakestatesetup.hpp>
+
+1395381496 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\snakes\snake.cpp
+	<snakes/snake.hpp>
+	<controllers/controller.hpp>
+
+1395377603 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\snakes\snakemanager.cpp
+	<snakes/snakemanager.hpp>
+
+1395434483 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\states\demosnakestate.cpp
+	<states/demosnakestate.hpp>
+
+1395428791 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\states\mainsnakestate.cpp
+	<states\mainsnakestate.hpp>
+
+1395434597 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\states\snakestate.cpp
+	<states/snakestate.hpp>
+
+1395381396 source:u:\work\programming\cpp\git\ica2\flaky_snakey\src\ui\snakeinterface.cpp
+	<ui/snakeinterface.hpp>
+
+1395617839 d:\university\programming\cpp\git\ica2\flaky_snakey\include\misc\snakeutilities.hpp
+	<iostream>
+	<limits>
+	<sstream>
+	<misc/rectangle.hpp>
+	<setup/ingamesetup.hpp>
+
+1395617825 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\misc\snakeutilities.cpp
+	<misc/snakeutilities.hpp>
+
+1395636062 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\ui\button.cpp
+	<ui/button.hpp>
+
+1395636048 d:\university\programming\cpp\git\ica2\flaky_snakey\include\ui\button.hpp
+	<prg/core/font.hpp>
+	<prg/core/image.hpp>
+	<interfaces/idrawable.hpp>
+	<misc/snakeutilities.hpp>
+
+1395635856 d:\university\programming\cpp\git\ica2\flaky_snakey\include\states\mainmenustate.hpp
+	<memory>
+	<prg/interactive/app_state.hpp>
+	<prg/interactive/app.hpp>
+	<setup/snakestatesetup.hpp>
+	<ui/button.hpp>
+
+1395774417 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\states\mainmenustate.cpp
+	<states/mainmenustate.hpp>
+
+1395765920 d:\university\programming\cpp\git\ica2\flaky_snakey\include\states\configurationstate.hpp
+	<memory>
+	<prg/interactive/app.hpp>
+	<prg/interactive/app_state.hpp>
+	<setup/snakestatesetup.hpp>
+	<ui/button.hpp>
+
+1395768611 source:d:\university\programming\cpp\git\ica2\flaky_snakey\src\states\configurationstate.cpp
+	<states/configurationstate.hpp>
+

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Flaky Snakey ICA" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Linux Release">
+				<Option output="../game/Linux/flaky_snakey_ica" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../temp/Linux/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-pedantic" />
+					<Add option="-std=c++11" />
+				</Compiler>
+				<Linker>
+					<Add library="GL" />
+					<Add library="freetype" />
+					<Add library="X11" />
+					<Add library="pthread" />
+					<Add library="rt" />
+					<Add library="prg64" />
+					<Add directory="../lib/linux" />
+				</Linker>
+			</Target>
+			<Target title="Linux Debug">
+				<Option output="../game/Linux/flaky_snakey_ica" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../temp/Linux/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-pedantic" />
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg" />
+					<Add library="GL" />
+					<Add library="freetype" />
+					<Add library="X11" />
+					<Add library="pthread" />
+					<Add library="rt" />
+					<Add library="prg64_d" />
+					<Add directory="../lib/linux" />
+				</Linker>
+			</Target>
+			<Target title="Windows Release">
+				<Option output="../game/Windows/flaky_snakey_ica" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../temp/Windows/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-pedantic" />
+					<Add option="-std=c++11" />
+				</Compiler>
+				<Linker>
+					<Add library="prg32" />
+					<Add library="freetype.dll" />
+					<Add library="gdi32" />
+					<Add library="winmm" />
+					<Add library="opengl32" />
+					<Add directory="../lib/windows/gcc" />
+				</Linker>
+			</Target>
+			<Target title="Windows Debug">
+				<Option output="../game/Windows/flaky_snakey_ica" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../temp/Windows/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-pedantic" />
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg" />
+					<Add library="prg32_d" />
+					<Add library="freetype.dll" />
+					<Add library="gdi32" />
+					<Add library="winmm" />
+					<Add library="opengl32" />
+					<Add directory="../lib/windows/gcc" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add directory="../api" />
+			<Add directory="inc" />
+			<Add directory="src" />
+		</Compiler>
+		<Unit filename="include/controllers/aicontroller.hpp" />
+		<Unit filename="include/controllers/controller.hpp" />
+		<Unit filename="include/controllers/dumbaicontroller.hpp" />
+		<Unit filename="include/controllers/playercontroller.hpp" />
+		<Unit filename="include/controllers/smartaicontroller.hpp" />
+		<Unit filename="include/flakysnakey.hpp" />
+		<Unit filename="include/food/fatfood.hpp" />
+		<Unit filename="include/food/food.hpp" />
+		<Unit filename="include/food/foodmanager.hpp" />
+		<Unit filename="include/food/thinfood.hpp" />
+		<Unit filename="include/interfaces/idrawable.hpp" />
+		<Unit filename="include/misc/keymap.hpp" />
+		<Unit filename="include/misc/movement.hpp" />
+		<Unit filename="include/misc/rectangle.hpp" />
+		<Unit filename="include/misc/snakescore.hpp" />
+		<Unit filename="include/misc/snakeutilities.hpp" />
+		<Unit filename="include/obstacles/obstacle.hpp" />
+		<Unit filename="include/obstacles/obstaclemanager.hpp" />
+		<Unit filename="include/setup/ingamesetup.hpp" />
+		<Unit filename="include/setup/snakestatesetup.hpp" />
+		<Unit filename="include/snakes/snake.hpp" />
+		<Unit filename="include/snakes/snakemanager.hpp" />
+		<Unit filename="include/states/configurationstate.hpp" />
+		<Unit filename="include/states/demosnakestate.hpp" />
+		<Unit filename="include/states/mainmenustate.hpp" />
+		<Unit filename="include/states/mainsnakestate.hpp" />
+		<Unit filename="include/states/snakestate.hpp" />
+		<Unit filename="include/ui/button.hpp" />
+		<Unit filename="include/ui/snakeinterface.hpp" />
+		<Unit filename="log.txt" />
+		<Unit filename="src/controllers/aicontroller.cpp" />
+		<Unit filename="src/controllers/controller.cpp" />
+		<Unit filename="src/controllers/dumbaicontroller.cpp" />
+		<Unit filename="src/controllers/playercontroller.cpp" />
+		<Unit filename="src/controllers/smartaicontroller.cpp" />
+		<Unit filename="src/flakysnakey.cpp" />
+		<Unit filename="src/food/fatfood.cpp" />
+		<Unit filename="src/food/food.cpp" />
+		<Unit filename="src/food/foodmanager.cpp" />
+		<Unit filename="src/food/thinfood.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/misc/rectangle.cpp" />
+		<Unit filename="src/misc/snakescore.cpp" />
+		<Unit filename="src/misc/snakeutilities.cpp" />
+		<Unit filename="src/obstacles/obstacle.cpp" />
+		<Unit filename="src/obstacles/obstaclemanager.cpp" />
+		<Unit filename="src/setup/ingamesetup.cpp" />
+		<Unit filename="src/setup/snakestatesetup.cpp" />
+		<Unit filename="src/snakes/snake.cpp" />
+		<Unit filename="src/snakes/snakemanager.cpp" />
+		<Unit filename="src/states/configurationstate.cpp" />
+		<Unit filename="src/states/demosnakestate.cpp" />
+		<Unit filename="src/states/mainmenustate.cpp" />
+		<Unit filename="src/states/mainsnakestate.cpp" />
+		<Unit filename="src/states/snakestate.cpp" />
+		<Unit filename="src/ui/button.cpp" />
+		<Unit filename="src/ui/snakeinterface.cpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<AutoVersioning>
+				<Scheme minor_max="10" build_max="0" rev_max="0" rev_rand_max="10" build_times_to_increment_minor="100" />
+				<Settings autoincrement="1" date_declarations="1" use_define="0" update_manifest="0" do_auto_increment="0" ask_to_increment="0" language="C++" svn="0" svn_directory="" header_path="version.h" />
+				<Changes_Log show_changes_editor="0" app_title="released version %M.%m.%b of %p" changeslog_path="ChangesLog.txt" />
+				<Code header_guard="VERSION_H" namespace="AutoVersion" prefix="" />
+			</AutoVersioning>
+			<DoxyBlocks>
+				<comment_style block="2" line="2" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
